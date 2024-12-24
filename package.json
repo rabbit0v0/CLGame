@@ -1,0 +1,28 @@
+{
+  "name": "clgame",
+  "version": "0.0.0",
+  "description": "CLGame",
+  "main": "index.ts",
+  "author": "xiaoyushi",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "eslint": "^8.21.0",
+    "typescript": "^5.7.2"
+  },
+  "eslintConfig": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "npm run build && node .\\index.js"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/figlet": "^1.7.0",
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^4.1.2",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.3.0"
+  }
+}
